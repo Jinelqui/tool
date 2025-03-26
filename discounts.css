@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.header {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-bottom: 4px solid #ff9900;
+    display: grid;
+    grid-template-columns: 10fr  7fr;
+    width: 100%;
+    padding: 2px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.imgcontainer {
+    width: auto;
+    height: auto;
+    text-align: left;
+}
+.slogan {
+    border: 2px red;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+ 
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.nav a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+}
+.nav a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.nav a:hover {
+    background-color: #0056b3;
+}
+.discount-container {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+}
+.discount-box {
+    width: 45%;
+    border: 2px dashed #000;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.highlight {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+.bottom-images {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.bottom-images img {
+    width: 150px;
+}

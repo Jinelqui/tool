@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.header {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-bottom: 4px solid #ff9900;
+    display: grid;
+    grid-template-columns: 10fr  7fr;
+    width: 100%;
+    padding: 2px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.imgcontainer {
+    width: auto;
+    height: auto;
+    text-align: left;
+}  
+.slogan {
+    border: 2px red;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.nav a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+}
+.nav a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.nav a:hover {
+    background-color: #0056b3;
+}
+.contact-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.contact-info h2 {
+    margin-bottom: 5px;
+}
+.contact-form {
+    text-align: left;
+}
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bottom-images {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.bottom-images img {
+    width: 150px;
+}
